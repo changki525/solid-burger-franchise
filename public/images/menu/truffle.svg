@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" fill="none">
+  <ellipse cx="200" cy="360" rx="120" ry="10" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- Bottom bun (darker/brioche) -->
+  <path d="M80 290h240v16c0 14-10 26-26 26H106c-16 0-26-12-26-26v-16z" fill="#C08020"/>
+  <path d="M80 290h240v5c-30 3-80 4-120 4s-90-1-120-4v-5z" fill="#A06818" opacity="0.5"/>
+
+  <!-- Bottom patty -->
+  <rect x="75" y="258" width="250" height="34" rx="10" fill="#4A2010"/>
+  <rect x="75" y="258" width="250" height="8" rx="4" fill="#5C2A18" opacity="0.5"/>
+
+  <!-- Middle cheese -->
+  <path d="M70 252c0-3 5-7 12-7h236c7 0 12 4 12 7v3H70v-3z" fill="#FFD54F"/>
+  <path d="M66 255h268l-5 10h-6l-3-6h-10l-4 8h-14l-2-5h-10l-5 9h-16l-2-6h-12l-4 8h-10l-3-6h-14l-5 9h-8l-3-5h-12l-6 8h-8l-3-6-5 3z" fill="#FFC107"/>
+
+  <!-- Top patty -->
+  <rect x="75" y="222" width="250" height="34" rx="10" fill="#4A2010"/>
+  <rect x="75" y="222" width="250" height="8" rx="4" fill="#5C2A18" opacity="0.5"/>
+
+  <!-- Truffle sauce drizzle -->
+  <path d="M90 218c10 2 20-1 35 1s25-2 40 2 28-1 42 1 22-2 35 0l20 1" stroke="#2D1810" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M100 215c15 1 25-2 38 1s20 2 35-1 30 2 42 0" stroke="#1a0e08" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+  <!-- Truffle flakes -->
+  <circle cx="120" cy="216" r="3" fill="#1a0e08" opacity="0.3"/>
+  <circle cx="170" cy="214" r="2.5" fill="#1a0e08" opacity="0.25"/>
+  <circle cx="230" cy="216" r="3" fill="#1a0e08" opacity="0.3"/>
+  <circle cx="280" cy="215" r="2" fill="#1a0e08" opacity="0.25"/>
+
+  <!-- Caramelized onion -->
+  <path d="M85 208c5-4 12-1 22-3s15 3 25-1 12-4 22-1 16 4 25 1 15-4 22-2 12 3 18 1l6 2v6H82l3-3z" fill="#8B6040"/>
+  <path d="M85 208c5-4 12-1 22-3s15 3 25-1 12-4 22-1 16 4 25 1 15-4 22-2 12 3 18 1l6 2v3H82l3 0z" fill="#A07050" opacity="0.5"/>
+
+  <!-- Arugula -->
+  <path d="M70 198c8-10 16-4 30-7s20 5 34-2c14-7 16-6 30-2s18 6 32 2c14-4 18-8 28-4l10 5v10H66l4-2z" fill="#4A8B30"/>
+  <path d="M70 198c8-10 16-4 30-7s20 5 34-2c14-7 16-6 30-2s18 6 32 2c14-4 18-8 28-4l10 5v4H66l4 4z" fill="#6AAE48" opacity="0.5"/>
+
+  <!-- Top bun (brioche - richer color) -->
+  <path d="M85 198c0-65 45-108 115-108s115 43 115 108H85z" fill="#D4982A"/>
+  <path d="M85 198c0-65 45-108 115-108s115 43 115 108H85z" fill="url(#truffle-bun)"/>
+
+  <!-- Bun highlight -->
+  <path d="M140 120c18-28 50-38 84-30" stroke="#F0E0C0" stroke-width="2.5" fill="none" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- Sesame seeds -->
+  <ellipse cx="158" cy="128" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-15 158 128)"/>
+  <ellipse cx="200" cy="108" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(10 200 108)"/>
+  <ellipse cx="242" cy="122" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-10 242 122)"/>
+  <ellipse cx="178" cy="148" rx="5" ry="3" fill="#F5EDD8" opacity="0.7" transform="rotate(18 178 148)"/>
+  <ellipse cx="222" cy="142" rx="5" ry="3" fill="#F5EDD8" opacity="0.7" transform="rotate(-12 222 142)"/>
+
+  <!-- Premium badge glow -->
+  <circle cx="200" cy="60" r="35" fill="none" stroke="#C8963E" stroke-width="0.5" opacity="0.2"/>
+
+  <defs>
+    <radialGradient id="truffle-bun" cx="35%" cy="22%" r="70%">
+      <stop offset="0%" stop-color="#E8B840"/>
+      <stop offset="60%" stop-color="#C08020"/>
+      <stop offset="100%" stop-color="#986010"/>
+    </radialGradient>
+  </defs>
+</svg>

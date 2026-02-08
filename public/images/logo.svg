@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="96" fill="#1a0e08"/>
+  <circle cx="100" cy="100" r="96" stroke="#C8963E" stroke-width="2" opacity="0.3"/>
+
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="82" stroke="#C8963E" stroke-width="1" opacity="0.15"/>
+
+  <!-- Burger illustration -->
+  <!-- Bottom bun -->
+  <path d="M55 128h90v8c0 7-5 13-13 13H68c-8 0-13-6-13-13v-8z" fill="#D49830"/>
+  <path d="M55 128h90v4c-10 2-30 3-45 3s-35-1-45-3v-4z" fill="#C08820" opacity="0.6"/>
+
+  <!-- Patty -->
+  <rect x="52" y="112" width="96" height="18" rx="6" fill="#5C3318"/>
+  <rect x="52" y="112" width="96" height="5" rx="3" fill="#6B3D20" opacity="0.5"/>
+  <!-- Grill marks -->
+  <line x1="62" y1="116" x2="62" y2="126" stroke="#4A2512" stroke-width="1" opacity="0.3"/>
+  <line x1="78" y1="116" x2="78" y2="126" stroke="#4A2512" stroke-width="1" opacity="0.3"/>
+  <line x1="94" y1="116" x2="94" y2="126" stroke="#4A2512" stroke-width="1" opacity="0.3"/>
+  <line x1="110" y1="116" x2="110" y2="126" stroke="#4A2512" stroke-width="1" opacity="0.3"/>
+  <line x1="126" y1="116" x2="126" y2="126" stroke="#4A2512" stroke-width="1" opacity="0.3"/>
+  <line x1="138" y1="116" x2="138" y2="126" stroke="#4A2512" stroke-width="1" opacity="0.3"/>
+
+  <!-- Cheese -->
+  <path d="M48 110c0-3 4-6 8-6h88c4 0 8 3 8 6v2H48v-2z" fill="#FFD54F"/>
+  <path d="M46 112h108l-3 8h-4l-2-5h-6l-2 6h-8l-1-4h-6l-3 7h-10l-1-5h-8l-2 6h-6l-2-5h-8l-3 6h-5l-2-4H60l-4 5h-5l-2-6-3 2z" fill="#FFC107"/>
+
+  <!-- Lettuce -->
+  <path d="M46 102c3-7 10-3 18-5s12 4 22-1c10-5 10-4 20-1s14 5 22 2c8-3 12-6 16-3l4 4v5H44l2-1z" fill="#5CB338"/>
+  <path d="M46 102c3-7 10-3 18-5s12 4 22-1c10-5 10-4 20-1s14 5 22 2c8-3 12-6 16-3l4 4v2H44l2 2z" fill="#7BC950" opacity="0.6"/>
+
+  <!-- Tomato -->
+  <rect x="54" y="92" width="92" height="12" rx="4" fill="#EF4444"/>
+  <rect x="54" y="92" width="92" height="4" rx="2" fill="#DC2626" opacity="0.5"/>
+  <!-- Seeds -->
+  <ellipse cx="72" cy="97" rx="2" ry="1.5" fill="#FCA5A5" opacity="0.5"/>
+  <ellipse cx="92" cy="98" rx="2" ry="1.5" fill="#FCA5A5" opacity="0.5"/>
+  <ellipse cx="115" cy="97" rx="2" ry="1.5" fill="#FCA5A5" opacity="0.5"/>
+  <ellipse cx="132" cy="98" rx="2" ry="1.5" fill="#FCA5A5" opacity="0.5"/>
+
+  <!-- Top bun -->
+  <path d="M58 92c0-32 18-50 42-50s42 18 42 50H58z" fill="#E8B44A"/>
+  <path d="M58 92c0-32 18-50 42-50s42 18 42 50H58z" fill="url(#logo-bun-grad)"/>
+  <!-- Highlight -->
+  <path d="M80 60c10-12 28-14 40-6" stroke="#F5EDD8" stroke-width="2" fill="none" opacity="0.2" stroke-linecap="round"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="78" cy="62" rx="4" ry="2.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-15 78 62)"/>
+  <ellipse cx="100" cy="52" rx="4" ry="2.5" fill="#F5EDD8" opacity="0.8" transform="rotate(10 100 52)"/>
+  <ellipse cx="120" cy="60" rx="4" ry="2.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-8 120 60)"/>
+  <ellipse cx="88" cy="74" rx="3.5" ry="2" fill="#F5EDD8" opacity="0.7" transform="rotate(20 88 74)"/>
+  <ellipse cx="112" cy="72" rx="3.5" ry="2" fill="#F5EDD8" opacity="0.7" transform="rotate(-12 112 72)"/>
+
+  <!-- Brand text arc (small) -->
+  <text x="100" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="14" fill="#C8963E" letter-spacing="4">SOLID BURGER</text>
+
+  <!-- Decorative stars -->
+  <circle cx="62" cy="163" r="2" fill="#C8963E" opacity="0.5"/>
+  <circle cx="138" cy="163" r="2" fill="#C8963E" opacity="0.5"/>
+
+  <defs>
+    <radialGradient id="logo-bun-grad" cx="40%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#F0C860"/>
+      <stop offset="100%" stop-color="#C88820"/>
+    </radialGradient>
+  </defs>
+</svg>

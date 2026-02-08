@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" fill="none">
+  <ellipse cx="200" cy="360" rx="120" ry="10" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- Bottom bun -->
+  <path d="M80 285h240v16c0 14-10 26-26 26H106c-16 0-26-12-26-26v-16z" fill="#D49830"/>
+  <path d="M80 285h240v5c-30 3-80 4-120 4s-90-1-120-4v-5z" fill="#C08820" opacity="0.5"/>
+
+  <!-- Patty (smoky dark) -->
+  <rect x="75" y="250" width="250" height="38" rx="12" fill="#3D1A0A"/>
+  <rect x="75" y="250" width="250" height="10" rx="5" fill="#4E2414" opacity="0.5"/>
+  <!-- Smoky char marks -->
+  <g opacity="0.2">
+    <line x1="100" y1="256" x2="100" y2="282" stroke="#1a0a05" stroke-width="3"/>
+    <line x1="135" y1="256" x2="135" y2="282" stroke="#1a0a05" stroke-width="3"/>
+    <line x1="170" y1="256" x2="170" y2="282" stroke="#1a0a05" stroke-width="3"/>
+    <line x1="205" y1="256" x2="205" y2="282" stroke="#1a0a05" stroke-width="3"/>
+    <line x1="240" y1="256" x2="240" y2="282" stroke="#1a0a05" stroke-width="3"/>
+    <line x1="275" y1="256" x2="275" y2="282" stroke="#1a0a05" stroke-width="3"/>
+    <line x1="305" y1="256" x2="305" y2="282" stroke="#1a0a05" stroke-width="3"/>
+  </g>
+
+  <!-- Pepper jack cheese -->
+  <path d="M68 245c0-5 6-10 16-10h232c10 0 16 5 16 6v6H68v-2z" fill="#F5E6A8"/>
+  <path d="M62 250h276l-6 14h-8l-4-9h-12l-5 11h-16l-3-7h-12l-6 12h-18l-3-8h-14l-5 10h-12l-4-8h-16l-6 11h-10l-4-7h-14l-8 10h-10l-4-9-6 4z" fill="#E8D490"/>
+  <!-- Pepper flecks in cheese -->
+  <circle cx="100" cy="247" r="1.5" fill="#2D8B30" opacity="0.5"/>
+  <circle cx="140" cy="248" r="1" fill="#D43828" opacity="0.5"/>
+  <circle cx="180" cy="247" r="1.5" fill="#2D8B30" opacity="0.4"/>
+  <circle cx="225" cy="248" r="1" fill="#D43828" opacity="0.5"/>
+  <circle cx="270" cy="247" r="1.5" fill="#2D8B30" opacity="0.5"/>
+  <circle cx="305" cy="248" r="1" fill="#D43828" opacity="0.4"/>
+
+  <!-- Chili mayo sauce -->
+  <path d="M85 240c12 1 20-2 35 1s22-1 38 2 25-2 40 1 20-1 32 0l16 1" stroke="#D43020" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Lettuce -->
+  <path d="M60 228c6-12 16-6 32-9s24 5 40-2c16-7 18-10 36-4s22 8 38 3c16-5 22-9 34-4l12 6v12H56l4-2z" fill="#5CB338"/>
+  <path d="M60 228c6-12 16-6 32-9s24 5 40-2c16-7 18-10 36-4s22 8 38 3c16-5 22-9 34-4l12 6v4H56l4 6z" fill="#7BC950" opacity="0.5"/>
+
+  <!-- Jalapeño slices -->
+  <g>
+    <circle cx="110" cy="224" r="10" fill="#4CAF50"/>
+    <circle cx="110" cy="224" r="5.5" fill="#81C784"/>
+    <circle cx="110" cy="224" r="2.5" fill="#A5D6A7" opacity="0.7"/>
+
+    <circle cx="170" cy="222" r="10" fill="#4CAF50"/>
+    <circle cx="170" cy="222" r="5.5" fill="#81C784"/>
+    <circle cx="170" cy="222" r="2.5" fill="#A5D6A7" opacity="0.7"/>
+
+    <circle cx="240" cy="223" r="10" fill="#4CAF50"/>
+    <circle cx="240" cy="223" r="5.5" fill="#81C784"/>
+    <circle cx="240" cy="223" r="2.5" fill="#A5D6A7" opacity="0.7"/>
+
+    <circle cx="300" cy="224" r="9" fill="#4CAF50"/>
+    <circle cx="300" cy="224" r="5" fill="#81C784"/>
+    <circle cx="300" cy="224" r="2.5" fill="#A5D6A7" opacity="0.7"/>
+  </g>
+
+  <!-- Chili peppers -->
+  <path d="M130 218c6-2 10 2 14-1s6-5 10-2l2 3-28 2 2-2z" fill="#D32F2F"/>
+  <path d="M205 216c6-2 10 2 14-1s6-5 10-2l2 3-28 2 2-2z" fill="#D32F2F"/>
+  <path d="M270 217c5-2 8 2 12-1s5-4 8-2l2 3-24 2 2-2z" fill="#E53935"/>
+
+  <!-- Top bun -->
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="#E8B44A"/>
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="url(#chili-bun)"/>
+
+  <!-- Bun highlight -->
+  <path d="M140 130c18-30 52-42 88-34" stroke="#F5EDD8" stroke-width="2.5" fill="none" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- Sesame seeds -->
+  <ellipse cx="160" cy="138" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-18 160 138)"/>
+  <ellipse cx="200" cy="118" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(12 200 118)"/>
+  <ellipse cx="245" cy="132" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-8 245 132)"/>
+  <ellipse cx="180" cy="158" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(22 180 158)"/>
+  <ellipse cx="225" cy="152" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(-15 225 152)"/>
+
+  <!-- Spicy heat effect -->
+  <circle cx="200" cy="180" r="80" fill="url(#chili-heat)" opacity="0.08"/>
+
+  <defs>
+    <radialGradient id="chili-bun" cx="38%" cy="25%" r="72%">
+      <stop offset="0%" stop-color="#F0C860"/>
+      <stop offset="50%" stop-color="#D4A030"/>
+      <stop offset="100%" stop-color="#B87818"/>
+    </radialGradient>
+    <radialGradient id="chili-heat" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

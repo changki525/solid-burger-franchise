@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" fill="none">
+  <ellipse cx="200" cy="360" rx="120" ry="10" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- Bottom bun -->
+  <path d="M80 285h240v16c0 14-10 26-26 26H106c-16 0-26-12-26-26v-16z" fill="#D49830"/>
+  <path d="M80 285h240v5c-30 3-80 4-120 4s-90-1-120-4v-5z" fill="#C08820" opacity="0.5"/>
+
+  <!-- Patty -->
+  <rect x="75" y="252" width="250" height="36" rx="12" fill="#5C3318"/>
+  <rect x="75" y="252" width="250" height="9" rx="4" fill="#6B3D20" opacity="0.5"/>
+
+  <!-- Swiss cheese (with holes!) -->
+  <path d="M68 247c0-4 6-8 14-8h236c8 0 14 4 14 8v4H68v-4z" fill="#FFF8DC"/>
+  <path d="M62 251h276l-5 12h-6l-4-8h-10l-4 10h-14l-3-6h-10l-5 10h-16l-3-7h-12l-4 9h-10l-3-7h-14l-5 10h-8l-3-6h-12l-6 9h-8l-3-7-5 3z" fill="#F5E8C0"/>
+  <!-- Swiss cheese holes -->
+  <circle cx="105" cy="250" r="4" fill="#E8D8A0" opacity="0.6"/>
+  <circle cx="155" cy="249" r="3" fill="#E8D8A0" opacity="0.5"/>
+  <circle cx="210" cy="250" r="5" fill="#E8D8A0" opacity="0.6"/>
+  <circle cx="260" cy="249" r="3.5" fill="#E8D8A0" opacity="0.5"/>
+  <circle cx="305" cy="250" r="4" fill="#E8D8A0" opacity="0.55"/>
+
+  <!-- Truffle butter drizzle -->
+  <path d="M95 243c12 1 20-1 32 1s18-1 30 1 20-1 32 1 15-1 24 0l12 1" stroke="#B89040" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Arugula -->
+  <path d="M65 232c7-10 14-4 28-7s18 4 32-2c14-6 14-6 28-2s18 6 32 2c14-4 18-7 26-4l8 4v10H62l3-1z" fill="#4A8B30"/>
+  <path d="M65 232c7-10 14-4 28-7s18 4 32-2c14-6 14-6 28-2s18 6 32 2c14-4 18-7 26-4l8 4v4H62l3 5z" fill="#6AAE48" opacity="0.5"/>
+
+  <!-- MUSHROOM SLICES (main feature) -->
+  <!-- Mushroom 1 -->
+  <g transform="translate(95, 200)">
+    <path d="M0 22c0-14 12-24 24-24s24 10 24 24H0z" fill="#C4A882"/>
+    <path d="M0 22c0-14 12-24 24-24s24 10 24 24H0z" fill="url(#mush-grad)" opacity="0.7"/>
+    <rect x="8" y="22" width="32" height="5" rx="2" fill="#A88B68"/>
+    <!-- Gills -->
+    <line x1="8" y1="22" x2="12" y2="27" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="14" y1="22" x2="16" y2="27" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="20" y1="22" x2="20" y2="27" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="26" y1="22" x2="24" y2="27" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="32" y1="22" x2="28" y2="27" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="38" y1="22" x2="34" y2="27" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- Mushroom 2 -->
+  <g transform="translate(165, 196)">
+    <path d="M0 26c0-16 14-28 28-28s28 12 28 28H0z" fill="#C4A882"/>
+    <path d="M0 26c0-16 14-28 28-28s28 12 28 28H0z" fill="url(#mush-grad)" opacity="0.7"/>
+    <rect x="6" y="26" width="44" height="5" rx="2" fill="#A88B68"/>
+    <line x1="10" y1="26" x2="14" y2="31" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="18" y1="26" x2="20" y2="31" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="26" y1="26" x2="26" y2="31" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="34" y1="26" x2="32" y2="31" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="42" y1="26" x2="38" y2="31" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- Mushroom 3 -->
+  <g transform="translate(245, 198)">
+    <path d="M0 24c0-14 12-24 24-24s24 10 24 24H0z" fill="#C4A882"/>
+    <path d="M0 24c0-14 12-24 24-24s24 10 24 24H0z" fill="url(#mush-grad)" opacity="0.7"/>
+    <rect x="4" y="24" width="40" height="5" rx="2" fill="#A88B68"/>
+    <line x1="8" y1="24" x2="12" y2="29" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="16" y1="24" x2="18" y2="29" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="24" y1="24" x2="24" y2="29" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="32" y1="24" x2="30" y2="29" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+    <line x1="40" y1="24" x2="36" y2="29" stroke="#B89878" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- Rosemary sprig decoration -->
+  <g transform="translate(300, 205)" opacity="0.6">
+    <line x1="0" y1="15" x2="20" y2="0" stroke="#6B8B50" stroke-width="1.5"/>
+    <ellipse cx="6" cy="12" rx="4" ry="2" fill="#6B8B50" transform="rotate(-40 6 12)"/>
+    <ellipse cx="10" cy="8" rx="4" ry="2" fill="#6B8B50" transform="rotate(-40 10 8)"/>
+    <ellipse cx="14" cy="5" rx="3.5" ry="1.8" fill="#6B8B50" transform="rotate(-40 14 5)"/>
+  </g>
+
+  <!-- Top bun -->
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="#E8B44A"/>
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="url(#mush-bun)"/>
+
+  <path d="M140 130c18-30 52-42 88-34" stroke="#F5EDD8" stroke-width="2.5" fill="none" opacity="0.2" stroke-linecap="round"/>
+
+  <ellipse cx="160" cy="138" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-18 160 138)"/>
+  <ellipse cx="200" cy="118" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(12 200 118)"/>
+  <ellipse cx="245" cy="132" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-8 245 132)"/>
+  <ellipse cx="180" cy="158" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(22 180 158)"/>
+  <ellipse cx="225" cy="152" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(-15 225 152)"/>
+
+  <defs>
+    <radialGradient id="mush-bun" cx="38%" cy="25%" r="72%">
+      <stop offset="0%" stop-color="#F0C860"/>
+      <stop offset="50%" stop-color="#D4A030"/>
+      <stop offset="100%" stop-color="#B87818"/>
+    </radialGradient>
+    <linearGradient id="mush-grad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#D4B898"/>
+      <stop offset="100%" stop-color="#A88B68"/>
+    </linearGradient>
+  </defs>
+</svg>

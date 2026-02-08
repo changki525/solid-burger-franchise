@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" fill="none">
+  <ellipse cx="200" cy="360" rx="120" ry="10" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- Bottom bun -->
+  <path d="M80 285h240v16c0 14-10 26-26 26H106c-16 0-26-12-26-26v-16z" fill="#D49830"/>
+  <path d="M80 285h240v5c-30 3-80 4-120 4s-90-1-120-4v-5z" fill="#C08820" opacity="0.5"/>
+
+  <!-- Patty -->
+  <rect x="75" y="252" width="250" height="36" rx="12" fill="#5C3318"/>
+  <rect x="75" y="252" width="250" height="9" rx="4" fill="#6B3D20" opacity="0.5"/>
+
+  <!-- Cheese -->
+  <path d="M68 247c0-4 6-8 14-8h236c8 0 14 4 14 8v4H68v-4z" fill="#FFD54F"/>
+  <path d="M62 251h276l-5 12h-6l-4-8h-10l-4 10h-14l-3-6h-10l-5 10h-16l-3-7h-12l-4 9h-10l-3-7h-14l-5 10h-8l-3-6h-12l-6 9h-8l-3-7-5 3z" fill="#FFC107"/>
+
+  <!-- Honey mustard sauce -->
+  <path d="M90 242c10 1 18-2 30 1s20-1 35 2 22-2 36 1 18-1 28 0l14 1" stroke="#E8A830" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M100 239c14 1 22-1 35 1s18 1 30-1 25 2 35 0" stroke="#F0C040" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Lettuce -->
+  <path d="M62 230c6-11 15-5 30-8s22 4 38-2c16-6 16-8 32-3s20 7 36 3c16-4 20-8 30-4l10 5v12H58l4-3z" fill="#5CB338"/>
+  <path d="M62 230c6-11 15-5 30-8s22 4 38-2c16-6 16-8 32-3s20 7 36 3c16-4 20-8 30-4l10 5v4H58l4 5z" fill="#7BC950" opacity="0.5"/>
+
+  <!-- ONION RINGS (prominent feature!) -->
+  <!-- Large ring 1 -->
+  <ellipse cx="130" cy="218" rx="32" ry="14" fill="#E8C060"/>
+  <ellipse cx="130" cy="218" rx="32" ry="14" fill="url(#ring-grad)" opacity="0.8"/>
+  <ellipse cx="130" cy="218" rx="18" ry="8" fill="none" stroke="#D4A040" stroke-width="3"/>
+  <ellipse cx="130" cy="218" rx="10" ry="4" fill="#E8D8B8" opacity="0.3"/>
+  <!-- Breading texture -->
+  <path d="M100 214c2-1 4 1 6-1s4-2 6 0 4 1 6-1 4-1 6 1 4 0 6-1 4-1 6 0 4 2 6 0 3-1 5 0" stroke="#D4B060" stroke-width="1" opacity="0.4" transform="translate(0,8)"/>
+
+  <!-- Large ring 2 -->
+  <ellipse cx="220" cy="215" rx="36" ry="15" fill="#E8C060"/>
+  <ellipse cx="220" cy="215" rx="36" ry="15" fill="url(#ring-grad)" opacity="0.8"/>
+  <ellipse cx="220" cy="215" rx="20" ry="9" fill="none" stroke="#D4A040" stroke-width="3"/>
+  <ellipse cx="220" cy="215" rx="12" ry="5" fill="#E8D8B8" opacity="0.3"/>
+
+  <!-- Large ring 3 -->
+  <ellipse cx="310" cy="218" rx="28" ry="12" fill="#E8C060"/>
+  <ellipse cx="310" cy="218" rx="28" ry="12" fill="url(#ring-grad)" opacity="0.8"/>
+  <ellipse cx="310" cy="218" rx="16" ry="7" fill="none" stroke="#D4A040" stroke-width="3"/>
+  <ellipse cx="310" cy="218" rx="8" ry="3.5" fill="#E8D8B8" opacity="0.3"/>
+
+  <!-- Small ring on top -->
+  <ellipse cx="175" cy="208" rx="20" ry="9" fill="#E0B850"/>
+  <ellipse cx="175" cy="208" rx="12" ry="5" fill="none" stroke="#C89838" stroke-width="2"/>
+
+  <!-- Top bun -->
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="#E8B44A"/>
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="url(#onion-bun)"/>
+
+  <path d="M140 130c18-30 52-42 88-34" stroke="#F5EDD8" stroke-width="2.5" fill="none" opacity="0.2" stroke-linecap="round"/>
+
+  <ellipse cx="160" cy="138" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-18 160 138)"/>
+  <ellipse cx="200" cy="118" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(12 200 118)"/>
+  <ellipse cx="245" cy="132" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.8" transform="rotate(-8 245 132)"/>
+  <ellipse cx="180" cy="158" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(22 180 158)"/>
+  <ellipse cx="225" cy="152" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(-15 225 152)"/>
+
+  <defs>
+    <radialGradient id="onion-bun" cx="38%" cy="25%" r="72%">
+      <stop offset="0%" stop-color="#F0C860"/>
+      <stop offset="50%" stop-color="#D4A030"/>
+      <stop offset="100%" stop-color="#B87818"/>
+    </radialGradient>
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0D070"/>
+      <stop offset="50%" stop-color="#D4A840"/>
+      <stop offset="100%" stop-color="#B89030"/>
+    </linearGradient>
+  </defs>
+</svg>

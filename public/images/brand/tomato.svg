@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Main tomato body -->
+  <ellipse cx="100" cy="110" rx="70" ry="65" fill="#EF4444"/>
+  <ellipse cx="100" cy="110" rx="70" ry="65" fill="url(#tomato-body)"/>
+
+  <!-- Segments -->
+  <path d="M100 50c0 0-5 30-5 60s5 35 5 35" stroke="#DC2626" stroke-width="1" opacity="0.2"/>
+  <path d="M45 85c10 5 25 15 55 25s50 5 55 0" stroke="#DC2626" stroke-width="1" opacity="0.15"/>
+
+  <!-- Highlight -->
+  <ellipse cx="78" cy="85" rx="22" ry="18" fill="white" opacity="0.12"/>
+  <ellipse cx="72" cy="80" rx="10" ry="8" fill="white" opacity="0.15"/>
+
+  <!-- Stem -->
+  <path d="M100 52l0-8" stroke="#4A7530" stroke-width="4" stroke-linecap="round"/>
+  <!-- Leaves (calyx) -->
+  <path d="M100 50c-8-6-22-8-30-2 6-2 16-1 22 3" fill="#5CB338"/>
+  <path d="M100 50c8-6 22-8 30-2-6-2-16-1-22 3" fill="#5CB338"/>
+  <path d="M100 50c-4-8-6-18 0-22 2 6 3 14 0 22" fill="#4A9B2E"/>
+  <path d="M100 50c4-8 6-18 0-22-2 6-3 14 0 22" fill="#4A9B2E"/>
+  <path d="M100 50c-12-3-20-1-24 4 4-1 14-2 18 0" fill="#6DB34A" opacity="0.8"/>
+  <path d="M100 50c12-3 20-1 24 4-4-1-14-2-18 0" fill="#6DB34A" opacity="0.8"/>
+
+  <!-- Bottom shadow -->
+  <ellipse cx="100" cy="170" rx="50" ry="5" fill="rgba(0,0,0,0.08)"/>
+
+  <!-- Drop shadow on body -->
+  <ellipse cx="108" cy="140" rx="40" ry="20" fill="#B91C1C" opacity="0.15"/>
+
+  <defs>
+    <radialGradient id="tomato-body" cx="38%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#F87171"/>
+      <stop offset="40%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </radialGradient>
+  </defs>
+</svg>

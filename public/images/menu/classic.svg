@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="200" cy="360" rx="120" ry="10" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- Bottom bun -->
+  <path d="M80 285h240v16c0 14-10 26-26 26H106c-16 0-26-12-26-26v-16z" fill="#D49830"/>
+  <path d="M80 285h240v5c-30 3-80 4-120 4s-90-1-120-4v-5z" fill="#C08820" opacity="0.5"/>
+  <path d="M80 285h240v2c0 0-20 1-120 1S80 287 80 287v-2z" fill="#E0B040" opacity="0.3"/>
+
+  <!-- Patty -->
+  <rect x="75" y="250" width="250" height="38" rx="12" fill="#5C3318"/>
+  <rect x="75" y="250" width="250" height="10" rx="5" fill="#6B3D20" opacity="0.5"/>
+  <!-- Grill marks -->
+  <g opacity="0.15">
+    <line x1="95" y1="255" x2="95" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="120" y1="255" x2="120" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="145" y1="255" x2="145" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="170" y1="255" x2="170" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="195" y1="255" x2="195" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="220" y1="255" x2="220" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="245" y1="255" x2="245" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="270" y1="255" x2="270" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+    <line x1="295" y1="255" x2="295" y2="283" stroke="#3D1E0E" stroke-width="2"/>
+  </g>
+  <!-- Juice drips -->
+  <ellipse cx="130" cy="290" rx="4" ry="3" fill="#8B5E34" opacity="0.3"/>
+  <ellipse cx="260" cy="291" rx="3" ry="4" fill="#8B5E34" opacity="0.25"/>
+
+  <!-- Cheese -->
+  <path d="M68 245c0-5 6-10 16-10h232c10 0 16 5 16 6v6H68v-2z" fill="#FFD54F"/>
+  <path d="M62 250h276l-6 14h-8l-4-9h-12l-5 11h-16l-3-7h-12l-6 12h-18l-3-8h-14l-5 10h-12l-4-8h-16l-6 11h-10l-4-7h-14l-8 10h-10l-4-9-6 4z" fill="#FFC107"/>
+  <path d="M62 250h276v3H62z" fill="#FFE082" opacity="0.4"/>
+
+  <!-- Lettuce -->
+  <path d="M60 230c6-12 16-6 32-9s24 5 40-2c16-7 18-10 36-4s22 8 38 3c16-5 22-9 34-4l12 6v14H56l4-4z" fill="#5CB338"/>
+  <path d="M60 230c6-12 16-6 32-9s24 5 40-2c16-7 18-10 36-4s22 8 38 3c16-5 22-9 34-4l12 6v5H56l4 5z" fill="#7BC950" opacity="0.5"/>
+  <path d="M60 230c6-12 16-6 32-9s24 5 40-2c16-7 18-10 36-4s22 8 38 3c16-5 22-9 34-4l12 6v2H56l4 8z" fill="#8BD660" opacity="0.3"/>
+
+  <!-- Tomato -->
+  <rect x="82" y="210" width="236" height="22" rx="6" fill="#EF4444"/>
+  <rect x="82" y="210" width="236" height="7" rx="3" fill="#DC2626" opacity="0.4"/>
+  <!-- Seeds -->
+  <ellipse cx="110" cy="220" rx="3" ry="2" fill="#FCA5A5" opacity="0.4"/>
+  <ellipse cx="155" cy="222" rx="3" ry="2" fill="#FCA5A5" opacity="0.4"/>
+  <ellipse cx="205" cy="220" rx="3" ry="2" fill="#FCA5A5" opacity="0.4"/>
+  <ellipse cx="255" cy="221" rx="3" ry="2" fill="#FCA5A5" opacity="0.4"/>
+  <ellipse cx="295" cy="220" rx="3" ry="2" fill="#FCA5A5" opacity="0.4"/>
+
+  <!-- Onion rings -->
+  <ellipse cx="140" cy="208" rx="24" ry="5" fill="none" stroke="#E8D8F0" stroke-width="2.5" opacity="0.5"/>
+  <ellipse cx="220" cy="207" rx="20" ry="4.5" fill="none" stroke="#E8D8F0" stroke-width="2.5" opacity="0.45"/>
+  <ellipse cx="285" cy="209" rx="18" ry="4" fill="none" stroke="#E8D8F0" stroke-width="2.5" opacity="0.4"/>
+
+  <!-- Top bun -->
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="#E8B44A"/>
+  <path d="M85 210c0-65 45-108 115-108s115 43 115 108H85z" fill="url(#classic-bun)"/>
+
+  <!-- Bun highlight -->
+  <path d="M140 130c18-30 52-42 88-34" stroke="#F5EDD8" stroke-width="2.5" fill="none" opacity="0.2" stroke-linecap="round"/>
+  <path d="M155 150c12-12 30-16 48-10" stroke="#F5EDD8" stroke-width="1.5" fill="none" opacity="0.12" stroke-linecap="round"/>
+
+  <!-- Sesame seeds -->
+  <ellipse cx="160" cy="138" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.85" transform="rotate(-18 160 138)"/>
+  <ellipse cx="200" cy="118" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.85" transform="rotate(12 200 118)"/>
+  <ellipse cx="245" cy="132" rx="6" ry="3.5" fill="#F5EDD8" opacity="0.85" transform="rotate(-8 245 132)"/>
+  <ellipse cx="180" cy="158" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(22 180 158)"/>
+  <ellipse cx="225" cy="152" rx="5.5" ry="3" fill="#F5EDD8" opacity="0.75" transform="rotate(-15 225 152)"/>
+  <ellipse cx="150" cy="168" rx="5" ry="2.8" fill="#F5EDD8" opacity="0.65" transform="rotate(8 150 168)"/>
+  <ellipse cx="258" cy="162" rx="5" ry="2.8" fill="#F5EDD8" opacity="0.65" transform="rotate(-20 258 162)"/>
+  <ellipse cx="200" cy="140" rx="5" ry="3" fill="#F5EDD8" opacity="0.7" transform="rotate(5 200 140)"/>
+
+  <defs>
+    <radialGradient id="classic-bun" cx="38%" cy="25%" r="72%">
+      <stop offset="0%" stop-color="#F0C860"/>
+      <stop offset="50%" stop-color="#D4A030"/>
+      <stop offset="100%" stop-color="#B87818"/>
+    </radialGradient>
+  </defs>
+</svg>
